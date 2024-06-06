@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J. Paul Dyson: Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.htm">J. Paul Dyson</a></h1>
+        <nav class="closed">
+            <div class="menu mobile" id="menuButton">
+                <span id="menuOpen">☰</span>
+                <span id="menuClose">X</span>
+            </div>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="/images/JPaulDyson.jpg" alt="J. Paul Dyson" class="jpdPhoto">
+        <div class="socMedia">
+            <a href="https://www.linkedin.com/in/j-paul-dyson-04b03918a/" target="_blank" rel="noopener noreferrer">
+                <img src="images/linkedIn.png" alt="LinkedIn" title="LinkedIn">
+            </a>
+            <a href="https://www.facebook.com/JPaulDyson" target="_blank" rel="noopener noreferrer">
+                <img src="images/facebook.png" alt="Facebook" title="Facebook">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div id="mobile-head" class="mobile">
+            <img src="/images/JPaulDyson.jpg" alt="J. Paul Dyson" class="jpdPhoto-mobile">
+            <div class="socMedia mobile">
+                <a href="https://www.linkedin.com/in/j-paul-dyson-04b03918a/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/linkedIn.png" alt="LinkedIn" title="LinkedIn">
+                </a>
+                <a href="https://www.facebook.com/JPaulDyson" target="_blank" rel="noopener noreferrer">
+                    <img src="images/facebook.png" alt="Facebook" title="Facebook">
+                </a>
+            </div>
+        </div>
+        <section id="aboutMe">
+            <h2>About me</h2>
+            <p>
+                I began creating websites as soon as I graduated from university. Come to think of it, I didn't even wait till I'd graduated! When my final exam was done,
+                I went back to my room at <a href="https://www.dow.cam.ac.uk/" target="_blank" rel="noopener">Downing College</a>, <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener">Cambridge</a>, 
+                and bought my first domain name: <strong><a href="https://www.firstwriter.com" target="_blank" rel="noopener noreferrer">firstwriter.com</a></strong>. The site went on to become
+                a great success and is still going today, but I wish now that I had thought of a better name! 
+            </p>
+            <p>
+                <strong><a href="https://www.firstwriter.com" target="_blank" rel="noopener noreferrer">firstwriter.com</a></strong> became the number one ranked site in the world 
+                for a number of broad search terms, such as "poetry competition". I also 
+                became the first person in the world to advertise on Google for a number of search terms, including "literary agents". This all enabled the site to become one of the world's 
+                best-known sites for writers.
+            </p>
+            <p>
+                I've also worked for <a href="https://www.thomsonreuters.com/" target="_blank" rel="noopener noreferrer">Thomson Reuters</a> as a Senior Editor and Senior Technical Content Specialist.
+            </p>
+            <p>
+                Currently, I'm helping to develop <a href="https://gemini.google.com/" target="_blank" rel="noopener noreferrer">Google's AI</a> by working with 
+                <a href="https://outlier.ai" target="_blank" rel="noopener noreferrer">Outlier</a> to provide Google's Software Engineers with detailed evaluations of their
+                Large Language Model's responses. At the same time, I'm undertaking a Full-Stack Engineer course from 
+                <a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer">Codecademy Pro</a> to freshen up and expand my coding skills. 
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <a href="https://www.firstwriter.com" target="_blank" rel="noopener noreferrer" title="firstwriter.com" class="projectImage">
+                    <div class="imageContainer">
+                        <img src="images/firstwriter.png" alt="firstwriter.com">
+                    </div>
+                </a>
+                <div class="projectDesc">
+                    <a href="https://www.firstwriter.com" target="_blank" rel="noopener noreferrer" title="firstwriter.com" class="headerLink">
+                        <h3>firstwriter.com</h3>
+                    </a>
+                    <p>
+                        <strong>firstwriter.com</strong> is a website for writers, listing literary agents, magazines, publishers, and writing competitions. 
+                        The current iteration of the site is written primarily in PHP and features a MySQL database containing 
+                        multiple tables and tens of thousands of entries. It also includes a legacy flat-text database managed with Perl. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <div title="Page Checker" class="projectImage">
+                    <div class="imageContainer">
+                        <img src="images/pageChecker.jpeg" alt="Page Checker" title="Page Checker">
+                    </div>
+                </div>
+                <div class="projectDesc">
+                    <h3>Page Checker</h3>
+                    <p>
+                        <strong>Page Checker</strong> is a tool built in PHP using a MySQL database to support work on 
+                        <strong><a href="https://www.firstwriter.com" target="_blank" rel="noopener noreferrer">firstwriter.com</a></strong>. It monitors web pages for changes 
+                        by scraping URLs and diffing the results against previous versions of the pages. To avoid unnecessary hits, it allows specific sections of web pages to be
+                        selected and monitored for changes, ignoring changes in other areas of the page. It is not publicly accessible.
+                    </p>
+                </div>
+            </div>
+
+            
+            <div class="project">
+                <a href="https://www.jpandadyson.com" target="_blank" rel="noopener noreferrer" title="JP&amp;A Dyson" class="projectImage">
+                    <div class="imageContainer">
+                        <img src="images/jpandaImage.jpeg" alt="JP&amp;A Dyson" title="JP&amp;A Dyson">
+                    </div>
+                </a>
+                <div class="projectDesc">
+                    <a href="https://www.jpandadyson.com" target="_blank" rel="noopener noreferrer" title="JP&amp;A Dyson" class="headerLink">
+                        <h3>JP&A Dyson</h3>
+                    </a>
+                    <p>
+                        A small static site showcasing the material produced by <strong>JP&amp;A Dyson</strong>, including sections for websites and 
+                        published books, as well as a contact form built using PHP.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project">
+                <a href="https://www.jpandadyson.com/aa" target="_blank" rel="noopener noreferrer" title="Axis and Allies 1941 Battle Simulator" class="projectImage" id="aaImage">
+                    <div class="imageContainer">
+                        <img src="images/aaImage.jpeg" alt="Axis and Allies 1941 Battle Simulator" title="Axis and Allies 1941 Battle Simulator">
+                    </div>
+                </a>
+                <div class="projectDesc">
+                    <a href="https://www.jpandadyson.com/aa" target="_blank" rel="noopener noreferrer" title="Axis and Allies 1941 Battle Simulator" class="headerLink">
+                        <h3>Axis and Allies 1941 Battle Simulator</h3>
+                    </a>
+                    <p>
+                        Still a work in progress, this tool uses JavaScript to simulate battles in the popular board game, <strong>Axis and Allies 1941</strong>. 
+                        Users can specify different combat scenarios and have them played out a thousand times in a matter of seconds to see which side is 
+                        most likely to win, and what the most likely outcome is.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>© J. Paul Dyson 2024</footer>
+</body>
+</html>
